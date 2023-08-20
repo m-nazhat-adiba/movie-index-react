@@ -1,0 +1,231 @@
+/* Button */
+.btn-fill {
+  color: white !important;
+  border: 0px;
+  border-radius: 8px;
+}
+.btn-text {
+  background-color: transparent !important;
+  border: 0px;
+  border-radius: 8px;
+  color: white !important;
+}
+.btn-text:hover {
+  background-color: rgba(255, 255, 255, 0.15) !important;
+}
+.btn-outline {
+  border: 2px solid;
+  border-color: currentColor;
+  background-color: transparent !important;
+  border-radius: 8px;
+}
+.btn-color-primary {
+  color: #254edb;
+  background-color: #254edb;
+}
+.btn-color-secondary {
+  color: grey;
+  background-color: grey;
+}
+.btn-color-success {
+  color: #80b102;
+  background-color: #80b102;
+}
+.btn-color-danger {
+  color: #db2a30;
+  background-color: #db2a30;
+}
+.btn-lg {
+  padding-inline: 20px;
+  padding-block: 12px;
+  font-size: 20px;
+}
+.btn-md {
+  padding-inline: 16px;
+  padding-block: 8px;
+  font-size: 16px;
+}
+.btn-sm {
+  padding-inline: 6px;
+  padding-block: 4px;
+  font-size: 12px;
+}
+
+/* Carousel */
+.myCarousel {
+  margin-block: 24px;
+  height: 70vh;
+  position: relative;
+}
+.banner {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.myCarousel-overlay {
+  position: absolute;
+  bottom: 15%;
+  left: 4%;
+  color: white;
+}
+.myCarousel-text {
+  width: 50%;
+}
+.vignette {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 2000px 180px rgba(0, 0, 0, 1) inset;
+}
+
+/* Cast Card */
+.cast-card {
+  height: 100%;
+  width: auto;
+  margin-inline: auto;
+}
+.avatar {
+  border-radius: 50%;
+  width: 80%;
+  height: auto;
+}
+.cast-card:hover {
+  opacity: 85%;
+}
+.cast-name {
+  color: white;
+  font-size: 20px;
+  margin-block: 12px;
+  margin-inline: auto;
+}
+
+/* Homepage */
+.content {
+  margin-bottom: 100px;
+}
+.content-left {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+.content-right {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+.movie-rank-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  justify-content: space-between;
+}
+.sub-title {
+  margin-bottom: 2.5rem;
+  border-left: solid 5px #7b6ef6;
+  padding-left: 12px;
+  color: #1ea5fc;
+}
+
+/* Movie Card */
+.card {
+  height: 100%;
+  width: fit-content;
+  position: relative;
+  display: flex;
+  margin-inline: auto;
+}
+.card-overlay {
+  position: absolute;
+  width: auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  justify-content: end;
+}
+.card-title {
+  color: white;
+  font-size: 20px;
+  margin-block: 4px;
+}
+.card-text {
+  color: white;
+  font-size: 12px;
+  margin-block: 4px;
+}
+.image {
+  border-radius: 8px;
+}
+.card-gradient {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 212, 255, 0) 80%
+  );
+}
+.card-gradient:hover {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 212, 255, 0) 80%
+  );
+}
+
+/* Movie List */
+.list-container {
+  display: flex;
+  flex-direction: row;
+}
+.slider-override {
+  width: 100px;
+}
+
+/* News Carousel */
+.news-arousel {
+  margin-block: 24px;
+  height: 70vh;
+  position: relative;
+}
+.news-banner {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.news-carousel-text {
+  width: 80%;
+}
+
+/* Rank Card */
+.rank-card {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+.rank-card:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+.poster {
+  object-fit: cover;
+  height: auto;
+  width: 100%;
+  border-radius: 5px;
+}
+.poster-container {
+  display: flex;
+  height: 132px;
+  width: auto;
+  margin-right: 1rem;
+}
+.rank-title {
+  font-size: 20px;
+  margin: 5px 0 0 0;
+}
